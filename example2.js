@@ -5,3 +5,7 @@ function isEligible(age, hasConsent) {
     return false;
   }
 }
+
+const isEligible = (age, hasConsent) => {
+  return age > 18 && hasConsent;
+};

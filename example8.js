@@ -1,2 +1,2 @@
-let d = new Date();
-let elapsed = d - startDate;
+let currentDate = new Date();
+let elapsed = currentDate - startDate;
